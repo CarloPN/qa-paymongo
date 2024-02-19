@@ -6,9 +6,9 @@
 
 import crypto from "./crypto";
 
-const encrypt = ["carlopnarido@gmail.com", "CarloNarido123!"];
+const encrypt = [""];
 const decrypt = [""];
-const key = "uat";
+const key = "";
 
 console.log(`Encryption:`);
 for (let i = 0; i < encrypt.length; i++) {
