@@ -1,3 +1,4 @@
 allure-results/
 node_modules/
 config/env-uat/config.users.uat.json
+utils/encrypt.ts

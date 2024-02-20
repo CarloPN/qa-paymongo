@@ -1,5 +1,20 @@
 {
     "TC_ACTIVATE_001": {
-        
+        "links": {
+            "link1": {
+                "text":     "documents",
+                "url":      "https://paymongo.help/en/articles/3683583-what-are-the-documents-required-to-activate-my-account"
+            },
+            "link2": {
+                "text":     "Restricted Businesses.",
+                "url":      "https://www.paymongo.com/restricted-businesses"
+            }
+        }
+    },
+    "TC_ACTIVATE_002": {
+        "text": "Result has been processed"
+    },
+    "TC_ACTIVATE_003": {
+        "text": "Result has been processed"
     }
 }

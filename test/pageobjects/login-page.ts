@@ -11,6 +11,7 @@ class loginPage {
     await passwordField.setValue(password);
     const btn = await $(`//button[@type="submit"]`);
     await btn.click();
+    await browser.pause(1000);
   }
 }
 

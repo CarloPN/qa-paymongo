@@ -1,6 +1,7 @@
 {
   "urls": {
     "baseUrl": "https://dashboard.uat.paymongo.dev/",
-    "domain": "dashboard.uat.paymongo.dev/"
+    "domain": "dashboard.uat.paymongo.dev/",
+    "activateUrl": "https://dashboard.uat.paymongo.dev/activate"
   }
 }
