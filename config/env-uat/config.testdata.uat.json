@@ -1,20 +1,117 @@
 {
-    "TC_ACTIVATE_001": {
-        "links": {
-            "link1": {
-                "text":     "documents",
-                "url":      "https://paymongo.help/en/articles/3683583-what-are-the-documents-required-to-activate-my-account"
-            },
-            "link2": {
-                "text":     "Restricted Businesses.",
-                "url":      "https://www.paymongo.com/restricted-businesses"
-            }
-        }
-    },
-    "TC_ACTIVATE_002": {
-        "text": "Result has been processed"
-    },
-    "TC_ACTIVATE_003": {
-        "text": "Result has been processed"
+  "TC_ACTIVATE_001": {
+    "links": {
+      "link1": {
+        "text": "documents",
+        "url": "https://paymongo.help/en/articles/3683583-what-are-the-documents-required-to-activate-my-account"
+      },
+      "link2": {
+        "text": "Restricted Businesses.",
+        "url": "https://www.paymongo.com/restricted-businesses"
+      }
     }
+  },
+  "TC_ACTIVATE_002": {
+    "text": "Result has been processed"
+  },
+  "TC_ACTIVATE_003": {
+    "fields": {
+      "business_store_name": {
+        "label": "Business store name",
+        "name": "account.trade_name",
+        "blank_error": "The value for business store name cannot be blank.",
+        "value1": "",
+        "value1_error": "The value for business store name cannot be blank.",
+        "value2": "Business Store Name",
+        "value2_error": "No error."
+      },
+      "customer_service_number": {
+        "label": "Customer service number",
+        "name": "account.customer_service_number",
+        "blank_error": "The value for account customer service number cannot be blank.",
+        "value1": "",
+        "value1_error": "The value for account customer service number cannot be blank.",
+        "value2": "Test number",
+        "value2_error": "Customer service number accepts numbers, dashes and the plus sign only.",
+        "value6": "+639876543210",
+        "value6_error": "No error.",
+        "value4": "--++639876",
+        "value4_error": "No error.",
+        "value5": "1",
+        "value5_error": "No error.",
+        "value3": "123456789123456",
+        "value3_error": "Customer service number accepts a maximum of 13 characters."
+      },
+      "business_address": {
+        "label": "Business address",
+        "name": "address.line1",
+        "blank_error": "The value for address line1 cannot be blank.",
+        "value1": "",
+        "value1_error": "The value for address line1 cannot be blank.",
+        "value2": "A",
+        "value2_error": "No error.",
+        "value3": "1234",
+        "value3_error": "No error."
+      },
+      "city_municipality": {
+        "label": "City/Municipality",
+        "name": "address.city",
+        "blank_error": "The value for address city cannot be blank.",
+        "value1": "",
+        "value1_error": "The value for address city cannot be blank.",
+        "value2": "A",
+        "value2_error": "No error.",
+        "value3": "Manila",
+        "value3_error": "No error."
+      },
+      "zip_code": {
+        "label": "ZIP",
+        "name": "address.postal_code",
+        "blank_error": "The value for address postal code cannot be blank.",
+        "value1": "",
+        "value1_error": "The value for address postal code cannot be blank.",
+        "value2": "A",
+        "value2_error": "No error.",
+        "value3": "1000",
+        "value3_error": "No error."
+      },
+      "product_description": {
+        "label": "Product description and nature of your business",
+        "name": "business.description",
+        "blank_error": "The value for business description cannot be blank.",
+        "value1": "",
+        "value1_error": "The value for business description cannot be blank.",
+        "value2": "A sample description.",
+        "value2_error": "No error.",
+        "value3": "!",
+        "value3_error": "No error."
+      },
+      "business_website": {
+        "label": "Business website or social media",
+        "name": "business.website",
+        "blank_error": "The value for business website cannot be blank.",
+        "value4": "website.com",
+        "value4_error": "No error.",
+        "value2": "website",
+        "value2_error": "No error.",
+        "value3": "",
+        "value3_error": "The value for business website cannot be blank.",
+        "value1": "^@^",
+        "value1_error": "https://^@^ is not a valid site."
+      },
+      "preferred_business_handle": {
+        "label": "Preferred business handle",
+        "name": "business.handle",
+        "blank_error": "The value for business handle cannot be blank.",
+        "value3": "business-handle",
+        "value3_error": "No error.",
+        "value2": "business@",
+        "value2_error": "business handle format is invalid.",
+        "value1": "",
+        "value1_error": "The value for business handle cannot be blank.",
+        "value4": "business-handle",
+        "value4_expect": "https://pm.link/business-handle"
+      }
+    }
+  }
 }
